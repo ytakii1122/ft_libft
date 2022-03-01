@@ -6,7 +6,7 @@
 /*   By: ytakii </var/mail/ytakii>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 12:30:20 by ytakii            #+#    #+#             */
-/*   Updated: 2022/02/27 16:22:30 by ytakii           ###   ########.fr       */
+/*   Updated: 2022/03/01 18:10:26 by ytakii           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ char	**ft_split(char const *s, char c)
 		if (words[i] == NULL)
 		{
 			ft_free(words, i);
-			break ;
+			return (0);
 		}
 		i++;
 	}

@@ -6,7 +6,7 @@
 /*   By: ytakii </var/mail/ytakii>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 11:45:53 by ytakii            #+#    #+#             */
-/*   Updated: 2022/02/22 12:37:12 by ytakii           ###   ########.fr       */
+/*   Updated: 2022/03/01 18:13:56 by ytakii           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	new_line = (char *)malloc(sizeof(char) * (len + 1));
 	if (new_line == NULL)
 		return (NULL);
-	while (i < len && s[i] != '\0')
+	while (i < len && s[i + start] != '\0')
 	{
 		new_line[i] = s[i + start];
 		i++;
