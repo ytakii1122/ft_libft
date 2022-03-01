@@ -6,7 +6,7 @@
 /*   By: ytakii </var/mail/ytakii>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 12:29:34 by ytakii            #+#    #+#             */
-/*   Updated: 2022/02/24 22:58:28 by ytakii           ###   ########.fr       */
+/*   Updated: 2022/03/01 18:41:10 by ytakii           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,8 +43,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 /*
 int main(void)
 {
-	char str [] = "aaaabbaaaabbaaaabbaaa";
-	char trim = "bb";
+	char str [] = "aaabbaa";
+	char trim = "bbbbbbbbbbbb";
 	printf("%s\n", ft_strtrim(str, trim));
 	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: ytakii </var/mail/ytakii>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 18:53:45 by ytakii            #+#    #+#             */
-/*   Updated: 2022/02/25 16:33:41 by ytakii           ###   ########.fr       */
+/*   Updated: 2022/03/01 18:31:05 by ytakii           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	ft_atoi(const char *str)
 /*
 int main(void)
 {
-	char str[8] = "-+12345";
+	char str[] = "-12345";
 	
 	printf("%s\n",str);
 	printf("%d\n",atoi(str));
